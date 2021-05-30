@@ -2,6 +2,7 @@ import React from "react";
 import "./styles.scss";
 import IMAGE from "./react.jpg";
 import Logo from "./logo.svg";
+import Counter from "./Counter";
 const App = () => {
   return (
     <div className="text-center">
@@ -10,6 +11,7 @@ const App = () => {
       <p>
         {process.env.name}-{process.env.NODE_ENV}
       </p>
+      <Counter />
     </div>
   );
 };
